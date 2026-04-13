@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>hakun-engine</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background: black;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      opacity: 0.7;
+    }
+
+    nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(120deg, #000, #222);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    .hero p {
+      opacity: 0.7;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: #1a1a1a;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      opacity: 0.5;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>HAKUN ENGINE</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div>
+    <h2>未来を作る</h2>
+    <p>Programming × Creativity</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="card">Python App</div>
+    <div class="card">Game Dev</div>
+    <div class="card">Web Project</div>
+  </div>
+</div>
+
+<footer>
+  © 2026 hakun-engine
+</footer>
+
+</body>
+</html>
